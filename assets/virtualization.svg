@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="272" height="72" viewBox="0 0 272 72" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">KVM · QEMU · libvirt · oVirt</title>
+  <desc id="desc">Custom virtualization pictograms in matching dark tiles.</desc>
+  <g fill="#242938">
+    <rect x="8" width="48" height="48" rx="10"/>
+    <rect x="77" width="48" height="48" rx="10"/>
+    <rect x="146" width="48" height="48" rx="10"/>
+    <rect x="215" width="48" height="48" rx="10"/>
+  </g>
+  <g stroke="#39C5BB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="21" y="13" width="22" height="22" rx="3"/>
+    <path d="M26 9V13M32 9V13M38 9V13M26 35V39M32 35V39M38 35V39M17 18H21M17 24H21M17 30H21M43 18H47M43 24H47M43 30H47"/>
+    <rect x="27" y="19" width="10" height="10" rx="1" fill="#39C5BB" fill-opacity="0.15"/>
+  </g>
+  <g stroke="#F5A34B" stroke-width="4" stroke-linecap="round">
+    <circle cx="100" cy="23" r="11"/>
+    <path d="M105 28L114 37"/>
+  </g>
+  <g stroke="#AFA6E8" stroke-width="2" stroke-linejoin="round">
+    <path d="M170 11L181 17L170 23L159 17Z" fill="#AFA6E8" fill-opacity="0.12"/>
+    <path d="M159 17V30L170 37L181 30V17M170 23V37"/>
+    <path d="M154 23L159 26M181 26L186 23" stroke-linecap="round"/>
+    <circle cx="153" cy="22" r="2" fill="#AFA6E8"/>
+    <circle cx="187" cy="22" r="2" fill="#AFA6E8"/>
+  </g>
+  <g stroke="#EF7184" stroke-width="2" stroke-linejoin="round">
+    <path d="M230 15H248V33H230Z" fill="#EF7184" fill-opacity="0.12"/>
+    <path d="M239 15V33M230 24H248"/>
+    <g fill="#EF7184" stroke="#242938" stroke-width="2">
+      <circle cx="230" cy="15" r="4"/>
+      <circle cx="248" cy="15" r="4"/>
+      <circle cx="230" cy="33" r="4"/>
+      <circle cx="248" cy="33" r="4"/>
+    </g>
+  </g>
+  <g font-family="'DejaVu Sans', Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle" fill="#A6B5C5">
+    <text x="32" y="65">KVM</text>
+    <text x="101" y="65">QEMU</text>
+    <text x="170" y="65">libvirt</text>
+    <text x="239" y="65">oVirt</text>
+  </g>
+</svg>
