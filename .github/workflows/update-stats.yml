@@ -1,0 +1,42 @@
+name: update-stats
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: collect stats & patch README
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LOGIN: vyto4ka
+        run: |
+          set -euo pipefail
+
+          created=$(gh api "users/$LOGIN" --jq '.created_at')
+          uptime=$(( ( $(date +%s) - $(date -d "$created" +%s) ) / 86400 ))
+
+          commits=$(gh api "search/commits?q=author:$LOGIN&per_page=1" --jq '.total_count')
+
+          echo "uptime=$uptime commits=$commits"
+
+          clamp() { if [ "$1" -gt 0 ]; then echo "$1"; else echo 1; fi; }
+
+          sed -i -E \
+            -e "s#(@${LOGIN}-uptime\?[^\")]*num=)[0-9]+#\1$(clamp "$uptime")#" \
+            -e "s#(@${LOGIN}-commits\?[^\")]*num=)[0-9]+#\1$(clamp "$commits")#" \
+            README.md
+
+      - name: commit
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git diff --quiet || { git commit -am "chore: update profile stats"; git push; }
