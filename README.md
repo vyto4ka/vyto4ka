@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/virtualization.svg" width="272" alt="KVM · QEMU · libvirt · oVirt" />
+  <img src="assets/virtualization.svg" width="344" alt="KVM · QEMU · libvirt · oVirt" />
 </p>
 
 <table align="center">
