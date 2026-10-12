@@ -15,12 +15,12 @@
 </p>
 
 <p align="center">
-  <img src="https://count.getloli.com/@vyto4ka-uptime?theme=booru-qualityhentais&padding=0&scale=0.6&num=1" alt="uptime" /><br>
+  <img src="https://count.getloli.com/@vyto4ka-uptime?theme=booru-qualityhentais&padding=0&scale=0.6&num=2355" alt="uptime" /><br>
   <sub><code>uptime, days</code></sub>
 </p>
 
 <p align="center">
-  <img src="https://count.getloli.com/@vyto4ka-commits?theme=booru-qualityhentais&padding=0&scale=0.6&num=1" alt="commits" /><br>
+  <img src="https://count.getloli.com/@vyto4ka-commits?theme=booru-qualityhentais&padding=0&scale=0.6&num=150" alt="commits" /><br>
   <sub><code>commits</code></sub>
 </p>
 
