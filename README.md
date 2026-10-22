@@ -21,7 +21,7 @@
     <th width="200"><sub>VIEWS</sub></th>
   </tr>
   <tr>
-    <td align="center"><img src="https://count.getloli.com/@vyto4ka-uptime?theme=booru-qualityhentais&padding=0&scale=0.6&num=2364" height="100" alt="uptime, days" /></td>
+    <td align="center"><img src="https://count.getloli.com/@vyto4ka-uptime?theme=booru-qualityhentais&padding=0&scale=0.6&num=2365" height="100" alt="uptime, days" /></td>
     <td align="center"><img src="https://count.getloli.com/@vyto4ka-commits?theme=booru-qualityhentais&padding=0&scale=0.6&num=166" height="100" alt="commits" /></td>
     <td align="center"><img src="https://count.getloli.com/@vyto4ka?theme=booru-qualityhentais&padding=0&scale=0.6" height="100" alt="views" /></td>
   </tr>
