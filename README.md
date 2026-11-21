@@ -1,17 +1,9 @@
 <p align="center">
-  <img src="assets/banner.svg" width="900" alt="vyto4ka — linux · servers · infosec" />
+  <img src="assets/banner.svg" width="600" alt="vyto4ka — linux · servers · infosec" />
 </p>
 
 <p align="center">
-  <img src="assets/miku.gif" width="260" alt="miku" />
-</p>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=nix,arch,linux,bash,docker,git&theme=dark" height="48" alt="Nix · Arch Linux · Linux · Bash · Docker · Git" />
-</p>
-
-<p align="center">
-  <img src="assets/virtualization.svg" width="344" alt="KVM · QEMU · libvirt · oVirt" />
+  <img src="assets/stack.svg" width="360" alt="Nix · Arch Linux · Linux · Bash · Docker · Git" />
 </p>
 
 <table align="center">
